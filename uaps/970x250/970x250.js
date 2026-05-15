@@ -41,7 +41,7 @@ lib.ssMetadata = [
 
 
 
-(lib.Bitmap4 = function() {
+(lib.Bitmap5 = function() {
 	this.initialize(ss["970x250_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -134,7 +134,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(22).to({_off:false},0).to({regX:203.6,regY:66,scaleX:0.5981,scaleY:0.5981,x:831.65,y:216.45},16,cjs.Ease.backOut).wait(202));
 
 	// Layer_1
-	this.instance_2 = new lib.Bitmap4();
+	this.instance_2 = new lib.Bitmap5();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(240));
 

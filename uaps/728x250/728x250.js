@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"728x250_atlas_1", frames: [[0,0,1280,418],[0,420,584,188],[586,420,407,132]]}
+		{name:"728x250_atlas_1", frames: [[0,252,584,188],[0,442,407,132],[0,0,728,250]]}
 ];
 
 
@@ -27,21 +27,21 @@ lib.ssMetadata = [
 
 
 
-(lib.Bitmap1 = function() {
+(lib.Bitmap2 = function() {
 	this.initialize(ss["728x250_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap2 = function() {
+(lib.Bitmap3 = function() {
 	this.initialize(ss["728x250_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap3 = function() {
+(lib.Bitmap5 = function() {
 	this.initialize(ss["728x250_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -132,15 +132,14 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(22).to({_off:false},0).to({regX:203.5,regY:66.1,scaleX:0.5687,scaleY:0.5687,x:608.25},16,cjs.Ease.backOut).wait(202));
 
 	// Layer_1
-	this.instance_2 = new lib.Bitmap1();
-	this.instance_2.setTransform(0,0,0.5977,0.5977);
+	this.instance_2 = new lib.Bitmap5();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(240));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(28.5,125,736.5,124.9);
+p.nominalBounds = new cjs.Rectangle(28.5,125,706.3,125);
 // library properties:
 lib.properties = {
 	id: '2888700F9ADC40B0A75E417D550F3905',
